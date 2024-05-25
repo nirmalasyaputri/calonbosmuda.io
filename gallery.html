@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link rel="stylesheet" href="css/al.css"> -->
+    <title>galery</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: -20px;
+        }
+        img {
+            max-width: 1100px;
+            width: 100%;
+            height: 100px;
+            padding: 40px 15px;
+            margin: 0 auto;
+            /* box-sizing: border-box; */
+            text-align: center;
+        }
+        .header {
+            margin: 30px 0;
+            overflow: hidden;
+
+        }
+        .header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-left: 600px;
+
+        }
+        .galery {
+            padding-top: 50px;
+            margin: 50px 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 25px;
+        }
+        .galery img {
+            /* padding-top: 100px; */
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            border : 1px 2px #eee;
+            box-shadow: 1px 2px 3px;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        .footer{
+            margin: 40px 0;
+            overflow: hidden;
+        }
+        .footer h1 {
+            padding: 15px 0;
+            border-bottom: 2px solid #222;
+            display: inline-block;
+        }
+        .navigasi {
+            background-color: #3b4997;
+            width: 100%;
+            z-index: 1;
+             top: 0;
+             height: 70px;
+             color: antiquewhite;
+             position: fixed;
+        }
+        .logo {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.menu {
+    margin-left: 800px;
+    padding-top: 10px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: wheat;
+}
+.menu ul li a:hover {
+    color: lightskyblue;
+    font-style: italic;
+}
+.gal {
+            background-color: rgb(0, 183, 255);
+            color: black;
+            width: 70px;
+            height: 30px;
+            border-radius: 15px;
+            /* margin-top: -30px; */
+
+        }
+
+
+    </style>
+
+
+
+<div class="navigasi">
+    <div class="logo">
+        <h2>SMKN 1 PETASIA TIMUR</h2>
+    </div>
+    
+    <div class="menu">
+        <ul>
+            <li><a href="index1.html">Home</a></li>
+            <li><a href="jurusan1.html">Jurusan</a></li>
+            <li class="gal"><a href="#">Gallery</a></li>
+            <li><a href="alamat.html">Alamat</a></li>
+        </ul>
+    </div>
+</div>
+    <div class="galery">
+        <img class="image" src="img/bakti.jpg" alt="">
+        <img class="image" src="img/guru.jpg" alt="">
+        <img class="image" src="img/olahrag1.jpg" alt="">
+        <img class="image" src="img/upacara.jpg" alt="">
+        <img class="image" src="img/olahraga.jpg" alt="">
+        <img class="image" src="img/pramuka.jpg" alt="">
+        <img src="img/sekolah.jpg" alt="">
+    </div>
+</div>
+
+</body>
+</html>

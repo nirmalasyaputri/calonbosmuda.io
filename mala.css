@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navigasi {
+    background-color: #3b4997;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    height: 70px;
+    color: antiquewhite;
+    position: fixed;
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+
+}
+.menu {
+    margin-left: 800px;
+    padding-top: 30px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: wheat;
+}
+.menu ul li a:hover {
+    color: black;
+    /* background-color: lightskyblue; */
+    font-style: italic;
+}
+
+.banner {
+    background-image: url(../img/depan.jpg);
+    height: 700px;
+    text-align: center;
+    color: white;
+}
+.img {
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 20px;
+
+}
+
+.banner .img {
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 100px;
+}
+
+.banner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.banner p {
+    margin-top: 10px;
+}
+.banner button {
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+
+}
+button {
+    background-color: #3b4997;
+}
+
+/* .banner button:hover { */
+    /* background-color: #3b5999; */
+    /* border: 1px solid white; */
+    /* color: white; */
+/* } */
+h1 span:before{
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: lightblue;
+    font-size: 50px;
+
+}
+@keyframes gerak {
+    0% {
+        content: 'Smk bisa';
+
+    }
+    50% {
+        content: 'Smk hebat';
+        
+    }
+    100% {
+        content: 'SMK Negeri 1 petasia timur';  
+    }
+}
+/* 
+.gambar {
+    width: 250px;
+    height: 250px;
+    padding-top: 50px;
+    display: inline-block;
+    /* width: 300px; */
+    /* height: 380px; */
+    /* background-color: #f0f0f0; */
+    /* text-align: center; */
+    /* padding: 30px 30px; */
+    /* margin: 70px 20px 20px 55px; */
+
+/* } */
+/* .kotak {
+    float: right;
+    padding-right: 25px;
+    border-radius: 20px;
+    padding-top: 25px;
+
+    
+}
+.kotak img {
+    width: 250px;
+    height: 250px;
+} */
+
+/* .container, .container1 {
+    border-radius: 10px; */
+    
+/* } */
+
+.box-pendidikan{
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 90px;
+    align-content: center;
+}
+
+.image, .image1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+
+}
+/* .image1 { */
+    /* width: 250px; */
+    /* height: 250px; */
+    /* width: 300px; */
+    /* height: 380px; */
+    /* background-color: #f0f0f0; */
+    /* text-align: center; */
+    /* padding: 30px 30px; */
+    /* margin: 70px 20px 20px 55px; */
+    /* float: left; */
+    /* border-radius: 10px; */
+
+/* } */
+
+
+.box-kiri, .box-tengah, .box-kanan {
+    width: 300px;
+    height: 380px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px 20px 55px;
+    float: left;
+    border-radius: 10px;
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color: #3b5999;
+    color: white;
+}
+.box-pendidikan h3, p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+
+}
+.kay {
+    margin-top: 150px;
+    background-color: #3b5999;
+    height: 50px;
+    /* position: absolute; */
+}
