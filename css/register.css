@@ -1,0 +1,39 @@
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet', sans-serif;
+    background-image: url(../img/pantai.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-transform: uppercase;
+  }
+  
+  .navbar-brand {
+    font-family: 'Righteous', cursive;
+  }
+  
+  .Login {
+    border: 0;
+    height: 500px;
+    margin: auto;
+  }
+  
+  .Login h4 {
+    margin-top: 100px;
+  }
+  
+  form .form-group input {
+    margin: auto;
+  }
+  
+  form .user input {
+    margin: auto;
+    margin-top: 70px;
+  }
+  img {
+    width: 450px;
+    height: 240px;
+  }
+  
